@@ -4,7 +4,7 @@ resource "random_string" "suffix" {
 }
 
 data "github_repository" "repo" {
-  full_name = "monacloud/app"
+  full_name = "monacloud/azure"
 }
 
 variable "appId" {

@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: monacloud-image
-          image: ghcr.io/monacloud/app:initial
+          image: ghcr.io/monacloud/azure:initial
           ports:
             - name: webserver
               containerPort: 8080
